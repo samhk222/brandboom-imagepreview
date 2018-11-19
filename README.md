@@ -2,7 +2,7 @@ Hi there, this repo is regarding the job offer @ https://stackoverflow.com/jobs/
 
 # How to install 
 
-## 1. CLone this repo into your www directory
+## 1. Clone this repo into your www directory
 ```
 cd /var/www/html/ [enter]
 git clone https://github.com/samhk222/brandboom-imagepreview.git
@@ -17,11 +17,11 @@ CREATE TABLE `brandboom`.`images` (
   PRIMARY KEY (`image_id`));
 ```
 ## 3. Rename .env.dist to .env and change the database parameters
--DB
--DB_USER
--DB_HOST
--DB_PASS
-You don't need to change the DSN
+- DB
+- DB_USER
+- DB_HOST
+- DB_PASS
+You don't need to change the DSN!
 
 ## 4. Chmod 777 the folders
 - src/files
