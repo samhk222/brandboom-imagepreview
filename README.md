@@ -18,6 +18,7 @@ git clone https://github.com/samhk222/brandboom-imagepreview.git
 You don't need to change the DSN!
 
 ## 3. Create the database and import the following script
+
 ```
 CREATE TABLE `brandboom`.`images` (
   `image_id` INT NOT NULL AUTO_INCREMENT,
@@ -27,6 +28,13 @@ CREATE TABLE `brandboom`.`images` (
 ```
 
 Or simple run the /config.php file, and it will be created (after following step 2)
+
+## 3. Rename .env.dist to .env and change the database parameters
+- DB
+- DB_USER
+- DB_HOST
+- DB_PASS
+You don't need to change the DSN!
 
 ## 4. Chmod 777 the folders
 - src/files

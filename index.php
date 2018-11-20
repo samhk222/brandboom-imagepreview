@@ -140,7 +140,6 @@ EOL;
         
 
     function list_files(){
-        console.log("ASDSAD")
         $.getJSON('?action=getFiles', {}, function(ret) { 
             $('#gallery').html(ret.html); 
             $(".group1").colorbox({rel:'group1'});
