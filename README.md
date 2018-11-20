@@ -20,7 +20,7 @@ You don't need to change the DSN!
 ## 3. Create the database and import the following script
 
 ```
-CREATE TABLE `brandboom`.`images` (
+CREATE TABLE `images` (
   `image_id` INT NOT NULL AUTO_INCREMENT,
   `filepath` VARCHAR(255) NULL,
   `created_at` DATETIME NULL,
